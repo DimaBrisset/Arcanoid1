@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Lose
   - Block
-  - BlockCircle
-  - BlockCircle2
+  - BlockCrash
+  - BlockRectangle
   layers:
   - Default
   - TransparentFX

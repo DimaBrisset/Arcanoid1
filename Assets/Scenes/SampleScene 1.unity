@@ -318,7 +318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -458,7 +458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -745,7 +745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -1244,7 +1244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -1581,7 +1581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -1651,7 +1651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -1756,7 +1756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -2056,7 +2056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4882213281731452360, guid: 7284c20c78c699c48ab78e5647bb92d3, type: 3}
       propertyPath: m_TagString
-      value: Block
+      value: BlockRectangle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7284c20c78c699c48ab78e5647bb92d3, type: 3}
@@ -2727,9 +2727,10 @@ MonoBehaviour:
   _rb: {fileID: 2139451271}
   _startDirection: {x: 8, y: 6}
   _pad: {fileID: 85395384}
-  _damageSmall: {fileID: 21300000, guid: 74d94ae472cd2469c986b2e13176218e, type: 3}
-  _damageBig: {fileID: 21300000, guid: eb31165d250684b23b9ea9a1c31af361, type: 3}
-  _countPoints: 0
+  _circleBlockDamageSmall: {fileID: 21300000, guid: 74d94ae472cd2469c986b2e13176218e, type: 3}
+  _circleBlockDamageBig: {fileID: 21300000, guid: ef5faa83324694a3eb92895a79f57ff6, type: 3}
+  _rectangleBlockDamageSmall: {fileID: 21300000, guid: 6e1acd52c69864acaa3a5d0cf30158ba, type: 3}
+  _rectangleBlockDamageBig: {fileID: 21300000, guid: 14f86f05ddda04a2eb64da65357d61a4, type: 3}
   _calcClickLable: {fileID: 1339949540}
 --- !u!1001 &163725770974562486
 PrefabInstance:
@@ -2748,7 +2749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235735326297862094, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_TagString
-      value: BlockCircle2
+      value: BlockCrash
       objectReference: {fileID: 0}
     - target: {fileID: 4366412429183378975, guid: c74e010ac036b0b4bbdd1df1ae18eb15, type: 3}
       propertyPath: m_RootOrder
@@ -2926,7 +2927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4882213281731452360, guid: 7284c20c78c699c48ab78e5647bb92d3, type: 3}
       propertyPath: m_TagString
-      value: Block
+      value: BlockRectangle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7284c20c78c699c48ab78e5647bb92d3, type: 3}

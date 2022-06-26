@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -32,10 +31,14 @@ public class GameManager : MonoBehaviour
     #endregion
 
 
+    #region Public Methods
+
     public void GameOver()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    #endregion
 
 
     #region Private methods
