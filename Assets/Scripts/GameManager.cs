@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,8 +20,9 @@ public class GameManager : MonoBehaviour
         if (_isStarted)
             return;
 
+
         _ball.MoveWithPad();
-        
+
         if (Input.GetMouseButtonDown(0))
         {
             StartBall();
@@ -27,6 +30,12 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion
+
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
 
 
     #region Private methods

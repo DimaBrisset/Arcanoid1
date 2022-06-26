@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Lose
+  - Block
+  - BlockCircle
+  - BlockCircle2
   layers:
   - Default
   - TransparentFX
@@ -11,12 +15,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Lose
+  - Platform
+  - Border
+  - Block1
+  - Block2
+  - Block3
   - 
   - 
   - 
